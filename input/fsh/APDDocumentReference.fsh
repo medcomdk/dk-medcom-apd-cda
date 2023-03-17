@@ -25,13 +25,13 @@ Instance: 94e65db8-2f0c-4a2c-a7c9-06a160d59a12
 InstanceOf: APDDKDocumentReference
 Title: "Instance of APD-DK DocumentReference."
 Description: "Instance of APD-DK DocumentReference, containing relevant metadata"
-* status = $Status#current 
-* type.coding = $TypeCode#56446-8
-* category.coding = $ClassCode#001
-* content.attachment.contentType = $ContentType#text/xml
-* content.attachment.language = $Language#da
-* content.format = $FormatCode#urn:ad:dk:medcom:apd-v2.0.1:full
-* context.event.coding = $EventCode#ALAL03	
-* context.facilityType.coding = $FacilityType#554871000005105	
-* context.practiceSetting.coding = $PracticeSetting#394588006
-* extension[homeCommunityid].valueCoding = $HomeCommunityID#1.2.208.176.43210.8.20
+* status = $StatusCS#current 
+* type.coding = $TypeCodeCS#56446-8
+* category.coding = $ClassCodeCS#001
+* content.attachment.contentType = $ContentTypeCS#text/xml
+* content.attachment.language = $LanguageCS#da
+* content.format = $FormatCodeCS#urn:ad:dk:medcom:apd-v2.0.1:full
+* context.event.coding = $EventCodeCS#ALAL03	
+* context.facilityType.coding = $FacilityTypeCS#554871000005105	
+* context.practiceSetting.coding = $PracticeSettingCS#394588006
+* extension[homeCommunityid].valueCoding = $HomeCommunityIDCS#1.2.208.176.43210.8.20
