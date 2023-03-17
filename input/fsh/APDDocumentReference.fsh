@@ -26,14 +26,14 @@ InstanceOf: APDDKDocumentReference
 Title: "Instance of APD-DK DocumentReference."
 Description: "Instance of APD-DK DocumentReference, containing relevant metadata"
 * status = $StatusCS#current 
-* type.coding = $TypeCodeCS#56446-8
-* category.coding = $ClassCodeCS#001
+* type = $TypeCodeCS#56446-8
+* category = $ClassCodeCS#001
 * content.attachment.contentType = $ContentTypeCS#text/xml
 * content.attachment.language = $LanguageCS#da
 * content.format = $FormatCodeCS#urn:ad:dk:medcom:apd-v2.0.1:full
-* context.event.coding = $EventCodeCS#ALAL03	
-* context.facilityType.coding = $FacilityTypeCS#554871000005105	
-* context.practiceSetting.coding = $PracticeSettingCS#394588006
+* context.event = $EventCodeCS#ALAL03	
+* context.facilityType = $FacilityTypeCS#554871000005105	
+* context.practiceSetting = $PracticeSettingCS#394588006
 * extension[homeCommunityid].valueCoding = $HomeCommunityIDCS#1.2.208.176.43210.8.20
 
 // Metadata instance
@@ -42,12 +42,12 @@ InstanceOf: APDDKDocumentReference
 Title: "Instance of APD-DK DocumentReference."
 Description: "Invalid: language=#eng. Instance of APD-DK DocumentReference, containing relevant metadata"
 * status = $StatusCS#current 
-* type.coding = $TypeCodeCS#56446-8
-* category.coding = $ClassCodeCS#001
+* type = $TypeCodeCS#56446-8
+* category = $ClassCodeCS#001
 * content.attachment.contentType = $ContentTypeCS#text/xml
 * content.attachment.language = $LanguageCS#eng
 * content.format = $FormatCodeCS#urn:ad:dk:medcom:apd-v2.0.1:full
-* context.event.coding = $EventCodeCS#ALAL03	
-* context.facilityType.coding = $FacilityTypeCS#554871000005105	
-* context.practiceSetting.coding = $PracticeSettingCS#394588006
+* context.event = $EventCodeCS#ALAL03	
+* context.facilityType = $FacilityTypeCS#554871000005105	
+* context.practiceSetting = $PracticeSettingCS#394588006
 * extension[homeCommunityid].valueCoding = $HomeCommunityIDCS#1.2.208.176.43210.8.20
