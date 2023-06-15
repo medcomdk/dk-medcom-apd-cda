@@ -11,7 +11,6 @@ Alias: $EventCode = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-dk-ihe-a
 Alias: $FacilityType = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-ihe-apd-HealthcareFacilityTypeCode-VS
 Alias: $PracticeSetting = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-ihe-apd-PracticeSettingCode-VS
 Alias: $HomeCommunityID = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-ihe-core-homeCommunityId-VS
-Alias: $Status = http://hl7.org/fhir/document-reference-status
 
 //used for instances
 Alias: $ClassCodeCS = http://medcomfhir.dk/ig/xdsmetadata/CodeSystem/MedCom-ihe-classcode-CS
